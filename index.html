@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive coffee shop website design</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style3.css">
+   
+
+
+    
+    
+</head>
+
+<body>
+  <!-- header section starts  -->
+
+<header class="header">
+
+  <a href="index.html" class="logo">
+      <img src="img/book2.jpg" alt="">
+  </a>
+
+  <nav class="navbar">
+    <a href="index.html" class="page-scroll">Home</a>
+    <a href="books.html" class="page-scroll">Books</a>
+    <a href="#about" class="page-scroll">About</a>
+    <a href="#contact" class="page-scroll">Contact</a>
+    <a href="sign-up.html" class="page-scroll">sign-up/Login</a>
+    
+   
+  </nav>
+
+
+  <form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+
+  <div class="icons">
+    
+    <a href="checkout.html"><div class="fas fa-shopping-cart" id="cart-btn"></div></a>
+    <div class="fas fa-bars" id="menu-btn"></div>
+</div>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+  <div id="about" class="content">
+      <h3>IMMERSE YOURSELF IN BOOKS</h3>
+      <p>Find your favourite books, relax and enjoy your time in the our Bookstore.</p>
+      <a href="books.html" class="btn">get yours now</a>
+  </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+  <h1 class="heading"> <span>about</span> us </h1>
+
+  <div class="row">
+
+      <div class="image">
+          <img src="img/book2.jpg" alt="">
+      </div>
+
+      <div class="content">
+          <h3>what makes our bookstore special?</h3>
+          <p> Bookshop is an online bookstore with a mission to financially support local, independent bookstores.
+            We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime. They’re also anchors for our downtowns and communities.
+            As more and more people buy their books online, we wanted to create an easy, convenient way for you to get your books and support bookstores at the same time.</p>
+          <p>If you want to find a specific local bookstore to support, find them on our map and they’ll receive the full profit off your order. Otherwise, your order will contribute to an earnings pool that will be evenly distributed among independent bookstores (even those that don’t use Bookshop).
+            We also support anyone who advocates for books through our affiliate program, which pays a 10% commission on every sale, and gives a matching 10% to independent bookstores. If you are an author, a website or magazine, have a bookclub, an organization that wants to recommend books, or even just a book-lover with an Instagram feed, you can sign up to be an affiliate, start your own shop, and be rewarded for your advocacy of books. Bookshop wants to give back to everyone who promotes books, authors, and independent bookstores!
+          <p>By design, we give away over 75% of our profit margin to stores, publications, authors and others who make up the thriving, inspirational culture around books!
+            We hope that Bookshop can help strengthen the fragile ecosystem and margins around bookselling and keep local bookstores an integral part of our culture and communities.</p>  
+            Bookshop is a benefit corporation - a corporation dedicated to the public good.</p>
+          <a href="books.html" class="btn">learn more</a>
+      </div>
+
+  </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.312666929304!2d-96.66201244912455!3d34.772903286759295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b36eabb1fbc38f%3A0x372fa4e070bcd934!2sEast%20Central%20University!5e0!3m2!1sen!2sus!4v1636927969444!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+
+        <form name="sentMessage" id="contactForm" novalidate>
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" id = "name" placeholder="name" required="required">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" id="email" placeholder="email" required="required">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" id="phone" placeholder="phone" required="required">
+            </div>
+            
+              <p>Message</p><textarea name="message" id="message" rows="6" cols="100" required></textarea><br />
+          
+            
+            <input type="submit" value="contact now" class="btn" type="reset" value = "clear">
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- contact section ends -->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
